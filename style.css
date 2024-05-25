@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .container{
     width: 100%;
@@ -18,4 +18,26 @@ nav{
     padding: 20px 0;
     display: flex;
     align-items: center;
+}
+.logo{
+    cursor: pointer;
+    width: 50px;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav .btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
 }
